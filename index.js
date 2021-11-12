@@ -1,5 +1,5 @@
-import { Application, Router } from 'https://deno.land/x/oak/mod.ts'
-import { oakCors } from 'https://deno.land/x/cors/mod.ts'
+import { Application, Router } from 'https://deno.land/x/oak@v7.7.0/mod.ts'
+import { oakCors } from 'https://deno.land/x/cors@v1.2.2/mod.ts'
 
 const messages = []
 const channel = new BroadcastChannel('chat')
